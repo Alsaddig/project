@@ -24,15 +24,21 @@
 
 <article>
 <p>
-	<h1>Alsaddig Ibrahim</h1>
-	Student in Bellevue University major Web Development Live in Iowa City Iowa Born in New Halfa
-	Sudan I recived Assiocite from Indian Hills Community College major Computer Software Development
-	I love to learning new language and I am always looking for something new to challenge myself.
-	Starting out ,I supported my tech addition CSS, Advanced .NET, Microsoft Project, Quality Assurance,
-	HTML5, Android Studio, Oracle, MVS / JCL, Java, Visio, Beginning Webpage
-	<img src="images/a.JPG" width="310" height="185" />
-	<img src="images/a1.JPG" width="310" height="185" />
-
+	<h1>Contact Me</h1>
+	<form id="sample" action="mailMain.php" method="POST">
+		<fieldset>
+			<legend>Contact Form</legend>
+			<p><label for="firstname">First Name:</label><input name="firstname" placeholder="First Name" type="text" /></p>
+			<p><label for="lastname">Last Name:</label><input name="lastname" placeholder="Last Name" type="text" /></p>
+			<p><label for="email">Email Address:<span class="important">*</span></label><input name="email" placeholder="namedomain.com" required type="email" /></p>
+			<p><label for="message">Message:<span class="important">*</span></label>
+			<textarea name="message" placeholder="Enter Your Message" required ></textarea></p>
+			<p><Label>Did you visit our store before?</label>
+			<input type="Radio" value"Yes" name="youvisited">Yes
+			<input type="Radio" value"No" name="youvisited" />No</p><br>
+			<p><button>Send</button><span class="important">*</span><span id="required"> Required</span></p>
+		</fieldset>			
+	</form>
 </p>
 
 </article>
